@@ -7,7 +7,7 @@ $link-active-color:  false;
 $link-visited-color: false;
 
 $font-color:  #666;
-$font-family: Helvetica, sans-serif;
+$font-family: 'Podkova', Helvetica, sans-serif;
 $base-font-size:   12px;
 $base-line-height: 18px;
 
@@ -19,9 +19,9 @@ $side-gutter-width: $gutter-width;
 @include global-reset;
 
 body {
-  font-family: $font-family;
-  color: $font-color; 
-	background-color:#2a2427;
+  	font-family: $font-family;
+  	color: $font-color; 
+	background-color:#2a2a2a;
 	font-size:10pt;
 }
 
@@ -30,11 +30,14 @@ h1 {
 	color:#444;
 	margin-bottom:4px;
 }
-a {
-  	@include link-colors($link-color, $link-hover-color, $link-focus-color, $link-active-color, $link-visited-color);
-	text-decoration:none;
-	background-color:#f1f1f1;
-	padding:8px 14px 8px 6px ;
+
+ul {
+	margin-left:10px;
+	float:left;
+}
+
+img {
+	float:left;
 }
 
 ul li {
@@ -42,6 +45,16 @@ ul li {
 	padding:10px 0 ;
 }
 
+
+ul li a {
+  	@include link-colors($link-color, $link-hover-color, $link-focus-color, $link-active-color, $link-visited-color);
+	text-decoration:none;
+	background-color:#f1f1f1;
+	padding:8px 14px 8px 6px ;
+	margin:0;
+}
+
+
 #main {
-  padding: 50px;
+  padding: 10px;
 }
