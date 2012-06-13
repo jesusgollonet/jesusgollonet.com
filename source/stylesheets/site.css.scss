@@ -25,6 +25,10 @@ body {
 	font-size:10pt;
 }
 
+#header{
+	margin:10px;
+}
+
 h1 {
 	font-size:14pt;
 	color:#444;
@@ -73,4 +77,9 @@ ul li a {
 
 #main {
   padding: 10px;
+}
+
+
+.project-list-item{
+	margin-bottom:10px;
 }

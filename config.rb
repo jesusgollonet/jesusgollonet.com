@@ -20,6 +20,9 @@ set :markdown, :layout_engine => :slim
 set :markdown_engine, :redcarpet
 
 activate :directory_indexes
+
+
+ignore "/code.html"
 # CodeRay syntax highlighting in Haml
 # First: gem install haml-coderay
 # require 'haml-coderay'
@@ -52,6 +55,13 @@ activate :directory_indexes
 # page "/this-page-has-no-template.html", :proxy => "/template-file.html" do
 #   @which_fake_page = "Rendering a fake page with a variable"
 # end
+
+# generate dynamic pages for each project. the variable @project will carry the yaml data structure
+data.projects.each do |p|
+  page "/projects/#{p.url}.html", :proxy => "/projects/project.html" do
+    @project = p
+  end
+end
 
 ###
 # Helpers

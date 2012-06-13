@@ -1,61 +1,77 @@
 -
     name        : oh a oh
-    url         : projects/ohaoh
-    description : stop motion desktop software
+    url         : ohaoh
+    short_desc  : stop motion desktop software
     tech        : openframeworks
     date        : 2011
-    
+    description : |
+                    this is a project that blabla
+
 - 
     name        : dust logic
-    url         : projects/dust-logic
-    description : book cover
+    url         : dust-logic
+    short_desc  : book cover
     tech        : openframeworks
     date        : 2012
-    
+    description : this is a project that blabla <a href="bla bla bla">blablablalba</a>
+    pictures    :
+        - |
+            <a href="http://www.flickr.com/photos/jesusgollonet/7164545910/" title="dust logic explorations by jesus gollonet, on Flickr"><img src="http://farm8.staticflickr.com/7090/7164545910_16b9654dd8_q.jpg" width="150" height="150" alt="dust logic explorations"></a>
+        - |
+            <a href="http://www.flickr.com/photos/jesusgollonet/7164884264/" title="dust logic explorations by jesus gollonet, on Flickr"><img src="http://farm8.staticflickr.com/7090/7164884264_0aa382d354_t.jpg" width="73" height="100" alt="dust logic explorations"></a>
 -
     name        : slow mirror
-    url         : projects/slow-mirror
-    description : interactive installation for RIMA fashion designer
+    url         : slow-mirror
+    short_desc  : interactive installation for RIMA fashion designer
     tech        : openframeworks
     date        : 2011
-    
+    description : |
+        this is a project that blabla
 - 
     name        : gif paranoia
-    url         : projects/gif-paranoia
-    description : website + 
+    url         : gif-paranoia
+    short_desc  : website + 
     tech        : html, css, jquery
     date        : 2010
-    
+    description : |
+        this is a project that blabla
 -                    
     name        : i am not an artist
-    url         : projects/i-am-not-an-artist
-    description :    
+    url         : i-am-not-an-artist
+    short_desc  :    
     tech        :    
     date        : 2009    
-    
+    description : |
+        this is a project that blabla
 - 
     name        : rituals
-    url         : projects/roca-rituals
-    description :
+    url         : roca-rituals
+    short_desc  :
     tech        :
     date        : 2010
-
+    description : |
+        this is a project that blabla
 -                    
     name        : no-touch
-    url         : projects/roca
-    description :    
+    url         : no-touch
+    short_desc  :    
     tech        :    
     date        : 2010    
-
+    description : |
+        this is a project that blabla
 - 
     name        : animo
-    url         : projects/animo
-    description :
+    url         : animo
+    short_desc  :
     tech        :
     date        : 2008
+    description : |
+        this is a project that blabla
 -                    
     name        : piuapp
-    url         : projects/piuapp 
-    description :    
+    url         : piuapp 
+    short_desc  :    
     tech        :    
     date        : 2008    
+    description : |
+        this is a project that blabla
