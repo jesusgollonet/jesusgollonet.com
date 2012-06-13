@@ -1,0 +1,20 @@
+#projects
+
+	/ note, make this a partial
+
+	- data.projects.each do |p|
+		h3== link_to p.name, p.url
+		h4== p.description
+		p== p.tech
+		p== p.date
+
+
+
+	/ - data.nav.each do |g|
+	/ 	    .block
+	/ 	      h3== g.name
+	/ 	      p== g.desc
+	/ 	      ul
+	/ 	        - g.pages.each_with_index do |p, i|
+	/ 	          li== link_to p.title, p.path
+	

@@ -14,7 +14,12 @@
 ###
 # Haml
 ###
+set :slim, :pretty => true
 
+set :markdown, :layout_engine => :slim
+set :markdown_engine, :redcarpet
+
+activate :directory_indexes
 # CodeRay syntax highlighting in Haml
 # First: gem install haml-coderay
 # require 'haml-coderay'

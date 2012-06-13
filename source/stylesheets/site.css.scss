@@ -8,7 +8,7 @@ $link-visited-color: false;
 
 $font-color:  #666;
 $font-family: 'Podkova', Helvetica, sans-serif;
-$base-font-size:   12px;
+$base-font-size:   14pt;
 $base-line-height: 18px;
 
 $total-cols: 12;
@@ -31,7 +31,21 @@ h1 {
 	margin-bottom:4px;
 }
 
-ul {
+h2 {
+	font-size:12pt;
+	color:#444;
+	margin-bottom:4px;
+}
+
+h3 {
+	font-size:10pt;
+	color:#444;
+	margin-bottom:4px;
+}
+
+
+#main ul {
+	margin-top:82px;
 	margin-left:10px;
 	float:left;
 }
@@ -45,11 +59,13 @@ ul li {
 	padding:10px 0 ;
 }
 
+a {
+	@include link-colors($link-color, $link-hover-color, $link-focus-color, $link-active-color, $link-visited-color);
+	text-decoration:none;
+	background-color:#e0e0e0;
+}
 
 ul li a {
-  	@include link-colors($link-color, $link-hover-color, $link-focus-color, $link-active-color, $link-visited-color);
-	text-decoration:none;
-	background-color:#f1f1f1;
 	padding:8px 14px 8px 6px ;
 	margin:0;
 }
