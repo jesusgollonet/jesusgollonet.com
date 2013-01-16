@@ -59,7 +59,13 @@ ignore "/code.html"
 # generate dynamic pages for each project. the variable @project will carry the yaml data structure
 data.projects.each do |p|
   page "/projects/#{p.url}.html", :proxy => "/projects/project.html" do
+    # maybe I can construct links and imgs here? (for the long texts and )
+    
+    # should the view now the elements of project or should i pass explicitly?
     @project = p
+    
+    # can I interpret markdown here?
+    # @rendered = Markdown.render "This is *bongos*, indeed."
   end
 end
 

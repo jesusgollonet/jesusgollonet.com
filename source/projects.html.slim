@@ -3,8 +3,10 @@
 	/ note, make this a partial
 	
 	- data.projects.each do |p|
+
 		div{id=p.url class="project-list-item"}
 			h3== link_to p.name, "/projects/#{p.url}"
 			h4== p.short_desc
 			p== p.tech
 			p== p.date
+			p== @rendered

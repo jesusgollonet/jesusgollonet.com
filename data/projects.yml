@@ -5,7 +5,7 @@
     tech        : openframeworks
     date        : 2011
     description : |
-                    this is a project that blabla
+                    wip
 
 - 
     name        : dust logic
@@ -17,8 +17,6 @@
     pictures    :
         - |
             <a href="http://www.flickr.com/photos/jesusgollonet/7164545910/" title="dust logic explorations by jesus gollonet, on Flickr"><img src="http://farm8.staticflickr.com/7090/7164545910_16b9654dd8_q.jpg" width="150" height="150" alt="dust logic explorations"></a>
-        - |
-            <a href="http://www.flickr.com/photos/jesusgollonet/7164884264/" title="dust logic explorations by jesus gollonet, on Flickr"><img src="http://farm8.staticflickr.com/7090/7164884264_0aa382d354_t.jpg" width="73" height="100" alt="dust logic explorations"></a>
 -
     name        : slow mirror
     url         : slow-mirror
@@ -31,7 +29,7 @@
     name        : gif paranoia
     url         : gif-paranoia
     short_desc  : website + 
-    tech        : html, css, jquery
+    tech        : html, css, jquery, actionscript
     date        : 2010
     description : |
         this is a project that blabla
