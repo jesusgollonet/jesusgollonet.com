@@ -4,7 +4,7 @@ Website/portfolio of [@jesusgollonet](http://twitter.com/jesusgollonet)
 ## about
 Built using [middleman](http://middlemanapp.com/), a ruby static site generator. 
 
-To run locally, in the root directory
+To run locally, install middleman, then type in the root directory
 
 	> middleman
 
