@@ -1,6 +1,41 @@
 -
+    name        : sneakers breakout
+    url         : sneakers-breakout
+    short_desc  : html5 desktop/mobile facebook game
+    role        : |
+                    tech lead, developer in charge of the multiuser flow, facebook integration, deployment and project coordination.
+    tech        : html, css, js, backbone.js
+    date        : 2013
+    description : |
+                   html5 game built at resn.
+
+
+-
+    name        : rei 1440 project
+    url         : rei
+    short_desc  : mobile website for the rei 1440 project
+    role        : |
+                    development of the mobile version of the project, including rails backend and integration.
+    tech        : ruby on rails, js, html, css 
+    date        : 2012
+    description : |
+                   this is a project that blabla
+
+
+-
+    name        : coca cola music generative identity app
+    url         : oh-a-oh
+    short_desc  : an app to generate logos of the coca cola music identity
+    tech        : openframeworks
+    date        : 2012
+    description : |
+                    wip
+
+
+
+-
     name        : oh a oh
-    url         : ohaoh
+    url         : oh-a-oh
     short_desc  : stop motion desktop software
     tech        : openframeworks
     date        : 2011
@@ -29,7 +64,7 @@
     name        : gif paranoia
     url         : gif-paranoia
     short_desc  : website + 
-    tech        : html, css, jquery, actionscript
+    tech        : html, css, jquery, actionscript, gif
     date        : 2010
     description : |
         this is a project that blabla
