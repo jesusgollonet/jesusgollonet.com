@@ -1,13 +1,13 @@
 -
-    name        : sneakers breakout
+    name        : converse sneakers breakout
     url         : sneakers-breakout
-    short_desc  : html5 desktop/mobile facebook game
+    short_desc  : desktop/mobile facebook turn-based game
     role        : |
-                    tech lead, developer in charge of the multiuser flow, facebook integration, deployment and project coordination.
-    tech        : html, css, js, backbone.js
+                    tech lead & front-end developer
+    tech        : html, css, js, backbone.js, mobile
     date        : 2013
     description : |
-                   html5 game built at resn.
+                   html5 game built at resn. I worked mainly on multiuser flow, facebook integration, deployment and project coordination.
 
 
 -
@@ -15,96 +15,108 @@
     url         : rei
     short_desc  : mobile website for the rei 1440 project
     role        : |
-                    development of the mobile version of the project, including rails backend and integration.
+                    front/back developer
     tech        : ruby on rails, js, html, css 
     date        : 2012
     description : |
-                   this is a project that blabla
+                  The 1440 project is a minute-by-minute timeline of photography, with a visual HTML5 responsive design. 
+                  I was in charge of the front and backend for the mobile version.
 
 
 -
-    name        : coca cola music generative identity app
-    url         : oh-a-oh
-    short_desc  : an app to generate logos of the coca cola music identity
+    name        : coca cola music identity app
+    url         : coca-cola-music-app
+    short_desc  : mac/windows app to generate logos of the coca cola music identity
     tech        : openframeworks
     date        : 2012
     description : |
-                    wip
+                    A mac/windows desktop app that allows to create a unique coke music logo based on a user-chosen song and several user-tweakable parameters. 
+                    It can generate logos in 2 formats: a single vector pdf file to be used for static logos, and a transparent sequence of pngs to be used in motion pieces.
+                    I developed the app in collaboration with the wieden + kennedy design department
 
 
 
--
-    name        : oh a oh
-    url         : oh-a-oh
-    short_desc  : stop motion desktop software
-    tech        : openframeworks
-    date        : 2011
-    description : |
-                    wip
+# -
+#     name        : oh a oh
+#     url         : oh-a-oh
+#     short_desc  : stop motion desktop software
+#     tech        : openframeworks
+#     date        : 2011
+#     description : |
+#                     wip
 
 - 
     name        : dust logic
     url         : dust-logic
-    short_desc  : book cover
+    short_desc  : generative book cover
     tech        : openframeworks
     date        : 2012
-    description : this is a project that blabla <a href="bla bla bla">blablablalba</a>
+    description : |
+                A book of short stories, written by Zach Watkins and designed by Gareth Rice.
+                I developed custom software to generate a particle based typographic composition for the book cover.
     pictures    :
         - |
             <a href="http://www.flickr.com/photos/jesusgollonet/7164545910/" title="dust logic explorations by jesus gollonet, on Flickr"><img src="http://farm8.staticflickr.com/7090/7164545910_16b9654dd8_q.jpg" width="150" height="150" alt="dust logic explorations"></a>
 -
     name        : slow mirror
     url         : slow-mirror
-    short_desc  : interactive installation for RIMA fashion designer
+    short_desc  : interactive screen installation
     tech        : openframeworks
     date        : 2011
     description : |
-        this is a project that blabla
+                    An interactive screen that only reflects slow-moving objects – to be used in RIMA’s showroom. 
 - 
     name        : gif paranoia
     url         : gif-paranoia
-    short_desc  : website + 
-    tech        : html, css, jquery, actionscript, gif
+    short_desc  : website and animated gif maker
+    tech        : html, css, js, actionscript, php
     date        : 2010
     description : |
-        this is a project that blabla
+                    A celebration of the animated gif. You can upload your own, construct them on the site or make them via your webcam. I assume they get placed in one of the many vacant slots on the homepage. Cool extras are the option to view a single GIF in all the slots or even download the whole thing as a screensaver.
 -                    
     name        : i am not an artist
     url         : i-am-not-an-artist
-    short_desc  :    
-    tech        :    
+    short_desc  : interactive webcomic
+    tech        : actionscript   
     date        : 2009    
     description : |
-        this is a project that blabla
+                    a webcomic developed 
 - 
     name        : rituals
     url         : roca-rituals
-    short_desc  :
-    tech        :
+    short_desc  : interactive audiovisual installation
+    tech        : openframeworks
     date        : 2010
     description : |
-        this is a project that blabla
+                    An audiovisual production spanning an 11X2m projection displaying everyday stories facing a mirror in a bathroom. 
+                    The mirror is steamed up with a flowing mist. The visitor can interact with the mist by moving in front of the projection.
 -                    
     name        : no-touch
     url         : no-touch
-    short_desc  :    
-    tech        :    
+    short_desc  : interactive catalogue browser
+    tech        : actionscript 
     date        : 2010    
     description : |
-        this is a project that blabla
+                    An interactive catalogue browser, controlled by the movement of the hand in the air.
 - 
     name        : animo
     url         : animo
-    short_desc  :
-    tech        :
+    short_desc  : a desktop app + hardware module for making stop motion animation
+    tech        : openframeworks, electronics
     date        : 2008
     description : |
-        this is a project that blabla
+        Animo is a little piece that makes extremely intuitive and quick the process of making stop-motion animation. It consists of two elements, A software program and a custom hardware device
+        |
+        The hw is a funny cardboard box with the minimum buttons needed: capture, delete frame, and play animation.
+        |
+        Built while working at <a href="http://utani.org">utani</a>
 -                    
     name        : piuapp
     url         : piuapp 
-    short_desc  :    
-    tech        :    
+    short_desc  : a desktop app for generating a customised modular font
+    tech        : processing   
     date        : 2008    
     description : |
-        this is a project that blabla
+        As part of the corporate identity created by BaseBCN for the italian architecture studio piuarch, BaseLAB designed a custom modular font. They wanted to provide the studio with a solution to make stickers, posters with their own module designs.
+        |
+        I developed a small application which allowed them to type some text, drag & drop a vector module and export the result as an editable pdf.
