@@ -34,17 +34,6 @@
                     It can generate logos in 2 formats: a single vector pdf file to be used for static logos, and a transparent sequence of pngs to be used in motion pieces.
                     I developed the app in collaboration with the wieden + kennedy design department
 
-
-
-# -
-#     name        : oh a oh
-#     url         : oh-a-oh
-#     short_desc  : stop motion desktop software
-#     tech        : openframeworks
-#     date        : 2011
-#     description : |
-#                     wip
-
 - 
     name        : dust logic
     url         : dust-logic
@@ -54,9 +43,7 @@
     description : |
                 A book of short stories, written by Zach Watkins and designed by Gareth Rice.
                 I developed custom software to generate a particle based typographic composition for the book cover.
-    pictures    :
-        - |
-            <a href="http://www.flickr.com/photos/jesusgollonet/7164545910/" title="dust logic explorations by jesus gollonet, on Flickr"><img src="http://farm8.staticflickr.com/7090/7164545910_16b9654dd8_q.jpg" width="150" height="150" alt="dust logic explorations"></a>
+        
 -
     name        : slow mirror
     url         : slow-mirror
@@ -105,11 +92,9 @@
     tech        : openframeworks, electronics
     date        : 2008
     description : |
-        Animo is a little piece that makes extremely intuitive and quick the process of making stop-motion animation. It consists of two elements, A software program and a custom hardware device
-        |
-        The hw is a funny cardboard box with the minimum buttons needed: capture, delete frame, and play animation.
-        |
-        Built while working at <a href="http://utani.org">utani</a>
+                    Animo is a little piece that makes extremely intuitive and quick the process of making stop-motion animation. It consists of two elements, A software program and a custom hardware device
+                    The hw is a funny cardboard box with the minimum buttons needed: capture, delete frame, and play animation.
+                    Built while working at <a href="http://utani.org">utani</a>
 -                    
     name        : piuapp
     url         : piuapp 
