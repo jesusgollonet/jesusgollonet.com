@@ -2,8 +2,7 @@
     name        : converse sneakers breakout
     url         : sneakers-breakout
     short_desc  : desktop/mobile facebook turn-based game
-    role        : |
-                    tech lead & front-end developer
+    role        : tech lead, front-end developer
     tech        : html, css, js, backbone.js, mobile
     date        : 2013
     description : |
@@ -14,8 +13,7 @@
     name        : rei 1440 project
     url         : rei
     short_desc  : mobile website for the rei 1440 project
-    role        : |
-                    front/back developer
+    role        : front/back developer
     tech        : ruby on rails, js, html, css 
     date        : 2012
     description : |
@@ -27,6 +25,7 @@
     name        : coca cola music identity app
     url         : coca-cola-music-app
     short_desc  : mac/windows app to generate logos of the coca cola music identity
+    role        : concept, developer
     tech        : openframeworks
     date        : 2012
     description : |
@@ -38,6 +37,7 @@
     name        : dust logic
     url         : dust-logic
     short_desc  : generative book cover
+    role        : developer
     tech        : openframeworks
     date        : 2012
     description : |
@@ -48,6 +48,7 @@
     name        : slow mirror
     url         : slow-mirror
     short_desc  : interactive screen installation
+    role        : developer
     tech        : openframeworks
     date        : 2011
     description : |
@@ -56,6 +57,7 @@
     name        : gif paranoia
     url         : gif-paranoia
     short_desc  : website and animated gif maker
+    role        : concept, developer
     tech        : html, css, js, actionscript, php
     date        : 2010
     description : |
@@ -64,7 +66,8 @@
     name        : i am not an artist
     url         : i-am-not-an-artist
     short_desc  : interactive webcomic
-    tech        : actionscript   
+    role        : concept, developer
+    tech        : actionscript, paper, glue, scisors   
     date        : 2009    
     description : |
                     a webcomic developed 
@@ -72,7 +75,8 @@
     name        : rituals
     url         : roca-rituals
     short_desc  : interactive audiovisual installation
-    tech        : openframeworks
+    role        : developer
+    tech        : openframeworks, computer vision
     date        : 2010
     description : |
                     An audiovisual production spanning an 11X2m projection displaying everyday stories facing a mirror in a bathroom. 
@@ -81,7 +85,8 @@
     name        : no-touch
     url         : no-touch
     short_desc  : interactive catalogue browser
-    tech        : actionscript 
+    role        : developer
+    tech        : flash, actionscript, sockets
     date        : 2010    
     description : |
                     An interactive catalogue browser, controlled by the movement of the hand in the air.
@@ -89,6 +94,7 @@
     name        : animo
     url         : animo
     short_desc  : a desktop app + hardware module for making stop motion animation
+    role        : concept, developer
     tech        : openframeworks, electronics
     date        : 2008
     description : |
@@ -99,7 +105,8 @@
     name        : piuapp
     url         : piuapp 
     short_desc  : a desktop app for generating a customised modular font
-    tech        : processing   
+    role        : developer
+    tech        : processing
     date        : 2008    
     description : |
         As part of the corporate identity created by BaseBCN for the italian architecture studio piuarch, BaseLAB designed a custom modular font. They wanted to provide the studio with a solution to make stickers, posters with their own module designs.
