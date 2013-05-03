@@ -13,7 +13,7 @@ activate :directory_indexes
 
 # generate dynamic pages for each project. the variable @project will carry the yaml data structure
 data.projects.each do |p|
-  proxy "/projects/#{p.url}.html", "project.html", :ignore => true do
+  proxy "/project/#{p.url}.html", "project.html", :ignore => true do
     @project = p
   end
 end

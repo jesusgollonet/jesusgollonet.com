@@ -5,10 +5,10 @@
 	- data.projects.each do |p|
 
 		article{id=p.url class="project-list-item"}
-			h3== link_to p.name, "/projects/#{p.url}"
+			h3== "#{link_to p.name, "/project/#{p.url}"} <time>(#{p.date})</time>"
 			h4 #{p.short_desc}
 			p #{p.tech}
-			p 
-				time #{p.date} 
+			
+				
 			
 
