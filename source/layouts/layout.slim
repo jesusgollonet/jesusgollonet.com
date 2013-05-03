@@ -10,11 +10,12 @@ html
     	| jesus gollonet
     
   body
-	
+	#menu
+	  == partial "layouts/menu"
 	#main
 	  == yield
 	
-	== javascript_include_tag "site"
+	
 	
 	javascript:
       var _gaq = _gaq || [];
