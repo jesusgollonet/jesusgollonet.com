@@ -1,15 +1,22 @@
+.grid_12
+	h3 projects
+
 #projects
-
-	/ note, make this a partial
-	
-	- data.projects.each do |p|
-
-		article{id=p.url class="project-list-item"}
-			h3== "#{link_to p.name, "/project/#{p.url}"} <time>(#{p.date})</time>"
-			p #{p.short_desc}
-			p #{p.description}
-			p #{p.tech}
-			p #{p.role}
+	.grid_8
+		- data.projects.each do |p|
+			article{id=p.url class="project-list-item"}
+				.grid_2
+					p thumbnail goes here
+				.grid_5 
+					/ grid_5 bc/ grid_6 breaks the layout
+					h3== "#{link_to p.name, "/project/#{p.url}"} <time>(#{p.date})</time>"
+					p #{p.short_desc}
+					p #{p.description}
+					p #{p.tech}
+					p #{p.role}
+				
+				
+				
 			
 				
 			
