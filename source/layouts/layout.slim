@@ -1,32 +1,20 @@
 doctype 5
 html
-  head
-    
-    == stylesheet_link_tag 'site.css'
-	link href='http://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'
-	link href='http://fonts.googleapis.com/css?family=Podkova' rel='stylesheet' type='text/css'
-	
-    title
-    	| jesus gollonet
-    
-  body
-	#menu
-	  == partial "layouts/menu"
-	#main
-	  == yield
-	
-	
-	
-	javascript:
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-60673-1']);
-      _gaq.push(['_trackPageview']);
+	head
 
-      (function() {
-       var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-       ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
+	== stylesheet_link_tag 'site.css'
+
+	title
+		| jesus gollonet, front end developer 
+
+	body
+		.container_12
+			header
+		  		== partial "layouts/header"
+			#main
+		  		== yield
+
+
 	
 	
 	
