@@ -1,8 +1,11 @@
 nav
 	dl
-		dt.grid_2== link_to 'profile', "/profile/"
-		dd.grid_10== "what i do, cv, interests"
+		dt.grid_2
+			h2 style="display:inline" == link_to 'profile', "/profile/"
+		dd.grid_10 
+			p == "i am, i make, i like"
 
-		dt.grid_2== link_to 'work', "/work/"
-		dd.grid_10== "projects, code, teaching, experiments"
-	
+		dt.grid_2
+			h2 style="display:inline" == link_to 'work', "/work/"
+		dd.grid_10 
+			p == "projects, code, teaching, experiments"
