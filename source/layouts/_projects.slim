@@ -6,8 +6,10 @@
 
 		article{id=p.url class="project-list-item"}
 			h3== "#{link_to p.name, "/project/#{p.url}"} <time>(#{p.date})</time>"
-			h4 #{p.short_desc}
+			p #{p.short_desc}
+			p #{p.description}
 			p #{p.tech}
+			p #{p.role}
 			
 				
 			
