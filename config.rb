@@ -9,6 +9,7 @@ set :markdown_engine, :redcarpet
 
 
 activate :directory_indexes 
+activate :livereload
 
 
 # generate dynamic pages for each project. the variable @project will carry the yaml data structure
