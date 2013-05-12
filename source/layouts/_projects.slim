@@ -1,21 +1,13 @@
 
 div{class="projects"}	
 		h3.grid_10.prefix_2.alpha projects
-		- data.projects.each do |p|
+		- data.projects.select{|p| p.thumb}.each do |p|
 			article{id=p.url class="project-list-item grid_8 alpha"}
-				div{class="grid_2 alpha"}
-					p thumbnail goes here
+				div{class="thumb-container grid_2 alpha"}
+					img src="/images/#{p.thumb}"
 
 				div{class="grid_6 omega"}
 					h4== "#{link_to p.name, "/project/#{p.url}"}"
 					h5== "#{p.short_desc}  <time>(#{p.date})</time>"
 					p #{p.description}
 					p #{p.tech}
-					p #{p.role}
-				
-				
-				
-			
-				
-			
-

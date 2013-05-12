@@ -8,6 +8,8 @@
     description : |
                    html5 game built at resn. I worked mainly on multiuser flow, facebook integration, deployment and project coordination.
 
+    thumb: sb-thumb.jpg
+
 
 -
     name        : rei 1440 project
@@ -19,7 +21,7 @@
     description : |
                   The 1440 project is a minute-by-minute timeline of photography, with a visual HTML5 responsive design. 
                   I was in charge of the front and backend for the mobile version.
-
+    thumb: rei-thumb.jpg
 
 -
     name        : coca cola music identity app
@@ -32,7 +34,7 @@
                     A mac/windows desktop app that allows to create a unique coke music logo based on a user-chosen song and several user-tweakable parameters. 
                     It can generate logos in 2 formats: a single vector pdf file to be used for static logos, and a transparent sequence of pngs to be used in motion pieces.
                     I developed the app in collaboration with the wieden + kennedy design department
-
+    thumb: coke-thumb.jpg
 - 
     name        : dust logic
     url         : dust-logic
@@ -70,7 +72,8 @@
     tech        : actionscript, paper, glue, scisors   
     date        : 2009    
     description : |
-                    a webcomic developed 
+                    a webcomic developed for soon in tokyo
+    thumb: iana-thumb.jpg
 - 
     name        : rituals
     url         : roca-rituals
