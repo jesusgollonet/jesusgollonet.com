@@ -3,9 +3,11 @@
 @import "lib/960/text";
 @import "lib/960/960";
 
+@import "global";
 @import "base";
-@import "menu";
+@import "header";
 @import "sidebar";
+@import "work";
 
 
 .content {

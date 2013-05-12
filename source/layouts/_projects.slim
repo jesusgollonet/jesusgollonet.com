@@ -7,8 +7,8 @@ div{class="projects"}
 					p thumbnail goes here
 
 				div{class="grid_6 omega"}
-					h4== "#{link_to p.name, "/project/#{p.url}"} <time>(#{p.date})</time>"
-					p #{p.short_desc}
+					h4== "#{link_to p.name, "/project/#{p.url}"}"
+					h5== "#{p.short_desc}  <time>(#{p.date})</time>"
 					p #{p.description}
 					p #{p.tech}
 					p #{p.role}

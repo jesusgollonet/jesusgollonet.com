@@ -1,7 +1,7 @@
 -
     name        : converse sneakers breakout
     url         : sneakers-breakout
-    short_desc  : desktop/mobile facebook turn-based game
+    short_desc  : facebook turn-based game
     role        : tech lead, front-end developer
     tech        : html, css, js, backbone.js, mobile
     date        : 2013
@@ -12,7 +12,7 @@
 -
     name        : rei 1440 project
     url         : rei
-    short_desc  : mobile website for the rei 1440 project
+    short_desc  : mobile website
     role        : front/back developer
     tech        : ruby on rails, js, html, css 
     date        : 2012
@@ -24,9 +24,9 @@
 -
     name        : coca cola music identity app
     url         : coca-cola-music-app
-    short_desc  : mac/windows app to generate logos of the coca cola music identity
+    short_desc  : desktop app
     role        : concept, developer
-    tech        : openframeworks
+    tech        : c++, openframeworks
     date        : 2012
     description : |
                     A mac/windows desktop app that allows to create a unique coke music logo based on a user-chosen song and several user-tweakable parameters. 
@@ -38,7 +38,7 @@
     url         : dust-logic
     short_desc  : generative book cover
     role        : developer
-    tech        : openframeworks
+    tech        : c++, openframeworks
     date        : 2012
     description : |
                 A book of short stories, written by Zach Watkins and designed by Gareth Rice.
@@ -47,16 +47,16 @@
 -
     name        : slow mirror
     url         : slow-mirror
-    short_desc  : interactive screen installation
+    short_desc  : interactive installation
     role        : developer
-    tech        : openframeworks
+    tech        : c++, openframeworks
     date        : 2011
     description : |
                     An interactive screen that only reflects slow-moving objects – to be used in RIMA’s showroom. 
 - 
     name        : gif paranoia
     url         : gif-paranoia
-    short_desc  : website and animated gif maker
+    short_desc  : website, animated gif maker
     role        : concept, developer
     tech        : html, css, js, actionscript, php
     date        : 2010
@@ -65,7 +65,7 @@
 -                    
     name        : i am not an artist
     url         : i-am-not-an-artist
-    short_desc  : interactive webcomic
+    short_desc  : webcomic
     role        : concept, developer
     tech        : actionscript, paper, glue, scisors   
     date        : 2009    
@@ -74,9 +74,9 @@
 - 
     name        : rituals
     url         : roca-rituals
-    short_desc  : interactive audiovisual installation
+    short_desc  : installation
     role        : developer
-    tech        : openframeworks, computer vision
+    tech        : c++, openframeworks, computer vision
     date        : 2010
     description : |
                     An audiovisual production spanning an 11X2m projection displaying everyday stories facing a mirror in a bathroom. 
@@ -84,7 +84,7 @@
 -                    
     name        : no-touch
     url         : no-touch
-    short_desc  : interactive catalogue browser
+    short_desc  : installation
     role        : developer
     tech        : flash, actionscript, sockets
     date        : 2010    
@@ -93,9 +93,9 @@
 - 
     name        : animo
     url         : animo
-    short_desc  : a desktop app + hardware module for making stop motion animation
+    short_desc  : desktop app, hardware module
     role        : concept, developer
-    tech        : openframeworks, electronics
+    tech        : c++, openframeworks, electronics
     date        : 2008
     description : |
                     Animo is a little piece that makes extremely intuitive and quick the process of making stop-motion animation. It consists of two elements, A software program and a custom hardware device
@@ -104,9 +104,9 @@
 -                    
     name        : piuapp
     url         : piuapp 
-    short_desc  : a desktop app for generating a customised modular font
+    short_desc  : desktop app
     role        : developer
-    tech        : processing
+    tech        : java, processing
     date        : 2008    
     description : |
         As part of the corporate identity created by BaseBCN for the italian architecture studio piuarch, BaseLAB designed a custom modular font. They wanted to provide the studio with a solution to make stickers, posters with their own module designs.
