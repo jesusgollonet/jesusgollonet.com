@@ -64,6 +64,7 @@
     date        : 2010
     description : |
                     A celebration of the animated gif. You can upload your own, construct them on the site or make them via your webcam. I assume they get placed in one of the many vacant slots on the homepage. Cool extras are the option to view a single GIF in all the slots or even download the whole thing as a screensaver.
+    thumb       : gp-thumb.jpg  
 -                    
     name        : i am not an artist
     url         : i-am-not-an-artist
@@ -72,7 +73,7 @@
     tech        : actionscript, paper, glue, scisors   
     date        : 2009    
     description : |
-                    a webcomic developed for soon in tokyo
+                    A web adaptation of a comic developed for the elisava design & engineering school. I collaborated with soon in tokyo in concepting, and developed the navigation interface and interactive music engine.
     thumb: iana-thumb.jpg
 - 
     name        : rituals
