@@ -9,7 +9,7 @@
 	h5{
 		font-size:16px;
 		font-weight:normal;
-		color:#b6b4b4;
+		color:$secondary-color;
 		margin-bottom:6px;
 	}	
 
@@ -17,5 +17,12 @@
 		img{
 			margin-top:$mod-1;
 		}
+	}
+
+	p.tech{
+		color: $secondary-color;
+		font-family:$font-sans;
+		font-size:$small-font-size;
+
 	}
 }

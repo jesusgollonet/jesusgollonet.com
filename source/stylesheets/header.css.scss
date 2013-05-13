@@ -7,12 +7,14 @@ dt {
 }
 dt > h2 {
 	display:inline;
+	font-size:16px;
+	text-transform: none;
 	margin-bottom:0;
 }
 
 dd {
 	display:block;
-	min-height:30px;
+	min-height:10px;
 }
 
 dd > p {

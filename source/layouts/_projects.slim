@@ -7,7 +7,7 @@ div{class="projects"}
 					img src="/images/#{p.thumb}"
 
 				div{class="grid_6 omega"}
-					h4== "#{link_to p.name, "/project/#{p.url}"}"
+					h4 #{p.name}
 					h5== "#{p.short_desc}  <time>(#{p.date})</time>"
 					p #{p.description}
-					p #{p.tech}
+					p.tech #{p.tech}
