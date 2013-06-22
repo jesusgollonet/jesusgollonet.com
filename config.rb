@@ -2,6 +2,7 @@
 require 'slim'
 require 'redcarpet'
 require "middleman-smusher"
+require File.join(File.dirname(__FILE__), "", "helpers/env_helper")
 
 # set :slim, :pretty => true
 set :markdown, :layout_engine => :slim
@@ -27,23 +28,7 @@ configure :build do
   activate :smusher # compressing images
 end
 
-helpers do
-  def get_local_env_path
-    env_file = File.join(File.dirname(__FILE__) , '', 'local_env.yml')
-    env_file
-  end
-
-  def set_env_vars file_path
-    YAML.load(File.open(file_path)).each do |key, value|
-      ENV[key.to_s] = value
-    end if File.exists?(file_path)
-  end
-end
-
-# sensible settings are stored in a .gitignored file called local_env.yml
-# and read as ENV variables below
-# http://railsapps.github.io/rails-environment-variables.html
-set_env_vars(get_local_env_path)
+EnvHelper.set_env_vars
 
 # Activate deploy extension
 activate :deploy do |deploy|
