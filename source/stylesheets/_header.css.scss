@@ -1,24 +1,43 @@
-header.grid_12 {
-	height:35px;
-}
 
 dt {
+	width:20px;
 	min-height:20px;
+	height:20px;
+	display:block;
+	background-color: yellow;
 }
+
 dt > h2 {
-	display:inline;
+	// display:inline;
 	font-size:16px;
 	text-transform: none;
 	margin-bottom:0;
 }
 
+dt:hover + dd {
+	opacity:1;
+}
+
+
+
 dd {
 	display:block;
-	min-height:10px;
+	min-height:20px;
+	height:20px;
+	background-color: red;
+	opacity:0;
+	-webkit-transition: all 500ms cubic-bezier(0.190, 1.000, 0.220, 1.000); 
+	-moz-transition: all 500ms cubic-bezier(0.190, 1.000, 0.220, 1.000); 
+	-ms-transition: all 500ms cubic-bezier(0.190, 1.000, 0.220, 1.000); 
+	-o-transition: all 500ms cubic-bezier(0.190, 1.000, 0.220, 1.000); 
+	transition: all 500ms cubic-bezier(0.190, 1.000, 0.220, 1.000); /* easeOutExpo */
+
+
 }
 
 dd > p {
 	display:inline;
-	visibility: hidden;
+	color:$secondary-color;
 	margin-bottom:0;
+
 }

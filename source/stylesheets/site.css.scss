@@ -1,9 +1,5 @@
 
 @import "compass";
-@import "lib/960/reset";
-@import "lib/960/text";
-@import "lib/960/960";
-
 @import "global";
 @import "base";
 @import "header";
@@ -15,4 +11,15 @@
 .content {
 	background-color: #ffffff;
 	min-height: 100%;
+	opacity:0;
+	-webkit-transition: all 500ms cubic-bezier(0.190, 1.000, 0.220, 1.000); 
+	-moz-transition: all 500ms cubic-bezier(0.190, 1.000, 0.220, 1.000); 
+	-ms-transition: all 500ms cubic-bezier(0.190, 1.000, 0.220, 1.000); 
+	-o-transition: all 500ms cubic-bezier(0.190, 1.000, 0.220, 1.000); 
+	transition: all 500ms cubic-bezier(0.190, 1.000, 0.220, 1.000); /* easeOutExpo */
+
+}
+
+.content.loaded{
+	opacity:1
 }

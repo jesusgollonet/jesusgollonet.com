@@ -1,12 +1,12 @@
 
 div{class="projects"}	
-		h3.grid_10.prefix_2.alpha projects
+		h3 projects
 		- data.projects.select{|p| p.thumb}.each do |p|
-			article{id=p.url class="project-list-item grid_8 alpha"}
-				div{class="thumb-container grid_2 alpha"}
+			article{id=p.url class="project-list-item"}
+				div{class="thumb-container"}
 					img src="/images/#{p.thumb}"
 
-				div{class="grid_6 omega"}
+				div
 					h4 #{p.name}
 					h5== "#{p.short_desc}  <time>(#{p.date})</time>"
 					p #{p.description}

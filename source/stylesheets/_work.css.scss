@@ -1,8 +1,5 @@
 // TODO: using section ids is not modular. create "work-article" module with this styles;
 .work{
-	article {
-		margin-bottom:$mod-1;
-	}
 	h4{
 		margin-bottom:-5px;
 	}
@@ -13,12 +10,6 @@
 		margin-bottom:6px;
 	}	
 
-	.thumb-container{
-		img{
-			margin-top:$mod-1;
-		}
-	}
-	
 	p.tech{
 		color: $secondary-color;
 		font-family:$font-sans;

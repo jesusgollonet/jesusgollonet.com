@@ -1,0 +1,4 @@
+$(function(){
+
+	$('.content').addClass('loaded');
+});
