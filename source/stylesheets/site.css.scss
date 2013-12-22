@@ -7,10 +7,13 @@
 @import "work";
 @import "profile";
 
+@import "modules/project";
 
 .content {
 	background-color: #ffffff;
 	min-height: 100%;
+	max-width: 700px;
+	margin:0 auto;
 	padding:10px;
 	opacity:0;
 	-webkit-transition: all 500ms cubic-bezier(0.190, 1.000, 0.220, 1.000); 

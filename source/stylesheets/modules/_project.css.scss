@@ -1,0 +1,20 @@
+.project{
+	p.tech{
+		color: $secondary-color;
+		font-family:$font-sans;
+		font-size:$small-font-size;
+
+	}
+	img{
+		float:left;
+		margin:5px 10px 10px 0;
+	}
+
+	.tech {
+		clear:left;
+	}
+
+	p {
+		margin:5px 10px 10px 0;
+	}
+}

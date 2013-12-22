@@ -2,10 +2,4 @@
 div{class="projects"}	
 		h3 projects
 		- data.projects.select{|p| p.thumb}.each do |p|
-			article{id=p.url class="project-list-item"}
-				div.project
-					h4 #{p.name}
-					h5== "#{p.short_desc}  <time>(#{p.date})</time>"
-					img src="/images/#{p.thumb}"
-					p #{p.description}
-					p.tech #{p.tech}
+			== partial 'layouts/project', :locals => {:p =>p }
