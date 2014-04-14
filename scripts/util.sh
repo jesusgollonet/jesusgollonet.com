@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# depends on nmap
+
 preview(){
     if is_server_up
     then
