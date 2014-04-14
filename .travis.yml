@@ -5,4 +5,4 @@ branches:
   only:
   - develop
 # uncomment this line if your project needs to run something other than `rake`:
-script: bundle exec middleman build
+script: ". scripts/util.sh && build"
