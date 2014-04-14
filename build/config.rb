@@ -35,7 +35,7 @@ activate :deploy do |deploy|
   deploy.method = :rsync
   deploy.host =  ENV["HOST"]
   deploy.user =  ENV["USER"]
-  deploy.path =  ENV["STAGING_PATH"]
+  deploy.path =  ENV["LIVE_PATH"]
 end
 
 
