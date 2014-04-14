@@ -26,6 +26,12 @@ build(){
     bundle exec middleman build)
 }
 
+deploy(){
+    build
+    (cd build
+    middleman deploy)
+}
+
 check_localhost_server_is_up(){
     while true 
     do
