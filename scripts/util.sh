@@ -7,5 +7,6 @@ preview(){
 
 build(){
     (cd build
+    bundle install
     bundle exec middleman build)
 }
