@@ -1,5 +1,0 @@
-
-div{class="projects"}	
-		h3 projects
-		- data.projects.select{|p| p.thumb}.each do |p|
-			== partial 'layouts/project', :locals => {:p =>p }
