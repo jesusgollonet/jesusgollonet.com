@@ -1,11 +1,4 @@
-.sass-cache
 .DS_Store
-.rvmrc
-bin
-.bundle
-build/build
-Gemfile.lock
-source/mint/config/db.php
-.rbenv-version
-.mm-pid-*
-local_env.yml
+node_modules
+build/deploy/**/*.css
+build/deploy/**/*.html
