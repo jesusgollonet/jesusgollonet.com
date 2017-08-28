@@ -4,16 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx concurrently \"npx pug src/template --out deploy --watch\" \"(cd deploy && npx browser-sync start --server --files *.html)\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "concurrently": "^3.5.0",
     "pug": "^2.0.0-rc.3",
     "pug-cli": "^1.0.0-alpha6"
   },
   "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "http-server": "^0.10.0",
     "tachyons": "^4.8.1"
   }
 }
