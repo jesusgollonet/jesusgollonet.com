@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo "bin/start"
+(cd build && npm start)
