@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx pug src/template --out deploy",
     "start": "npx concurrently \"npx pug src/template --out deploy --watch\" \"(cd deploy && npx browser-sync start --server --files *.html)\""
   },
   "keywords": [],

@@ -1,8 +1,8 @@
-language: ruby
-rvm:
-  - "1.9.3"
+language: node_js
+node_js:
+  - "8"
 branches:
   only:
   - develop
 # uncomment this line if your project needs to run something other than `rake`:
-script: ". scripts/util.sh && build"
+script: "./bin/build"
